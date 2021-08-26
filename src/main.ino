@@ -13,7 +13,6 @@ void loop()
   if (valuePresence == HIGH)
   {
     digitalWrite(PIN_VIBRATOR, HIGH);
-
   } else if (valuePresence == LOW)
   {
     digitalWrite(PIN_VIBRATOR, LOW);
