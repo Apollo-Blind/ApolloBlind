@@ -1,11 +1,3 @@
-//int buttonState = 0;
-
-/*
-BOTÃO -> Começar a alimentar a placa e os componentes.
-Sensor de Vibração -> Vibrar quando ocorrer proximidade pelo sensor.
-Sensor PIR -> Mandar informação de proximidade para o Sensor de Vibração. 
-*/
-
 #define PIN_PIR A4
 #define PIN_VIBRATOR A1 
 
