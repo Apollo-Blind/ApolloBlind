@@ -1,4 +1,4 @@
-![icon](/docs/ApolloBlind.png)
+![icon](/docs/ApolloBlind_2.gif)
 
 # ApolloBlind 👁
 ![LICENSE](https://img.shields.io/github/license/Nicolas-albu/ApolloBlind?style=flat-square)
@@ -41,7 +41,7 @@ Potency: ?
 **VERSION 0.2**
 | Name | Quantity | Component 
 | ---- | -------- | --------- 
-| U1   | 1        | ATTiny
+| U1   | 1        | ATTiny85
 | PIR1 | 1        | Sensor PIR
 | M1   | 1        | Motor of Vibration
 | Bat1 | 1        | 3V Coin type Battery
