@@ -12,6 +12,9 @@
 
 Currently at version 0.2, we are trying to use the **ATTiny82** microprocessor, with the PIR sensor and
 vibration motor, with 3V coin battery and Transistor NPN.
+
+![gif](https://media3.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?cid=790b76114d64313ac5227152fbef63bd95f3d0176ff2f890&rid=giphy.gif&ct=g)
+
 ## 🎲 Table of Contents
 - [ApolloBlind 👁](#apolloblind-)
   - [👩‍🚀 The Repository](#-the-repository)
@@ -62,7 +65,7 @@ Potency: ?
 ## 💻 Coding 
 ### Configuration of Sensor PIR1
 
-we define a global constant for the PIR Sensor pin.
+We define a global constant for the PIR Sensor pin.
 ```cpp
 #define PIN_PIR A4
 ```
@@ -75,11 +78,11 @@ else if (valuePresence == LOW){...}
 
 ### Configuration of Motor of Vibration M1
 
-we define a global constant for the PIR Sensor pin.
+We define a global constant for the PIR Sensor pin.
 ```cpp
 #define PIN_VIBRATOR A1
 ```
-when the PIR Sensor receives motion information, it outputs to the vibration motor port, otherwise nothing happens.
+When the PIR Sensor receives motion information, it outputs to the vibration motor port, otherwise nothing happens.
 ```cpp
 digitalWrite(PIN_VIBRATOR, HIGH);
 digitalWrite(PIN_VIBRATOR, LOW);
